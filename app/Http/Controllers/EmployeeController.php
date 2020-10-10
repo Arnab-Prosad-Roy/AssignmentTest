@@ -77,6 +77,6 @@ class EmployeeController extends Controller
 
 
         $res= employees::where('id',$dataId->id)->delete();
-        return back()->with('success','Product Removed Successfully'); 
+        return back()->with('success','Data Removed Successfully'); 
     }
 }
